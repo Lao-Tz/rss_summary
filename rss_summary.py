@@ -9,7 +9,7 @@ from urllib import request
 import urllib
 import datetime
 
-openai.api_key = 'your-api-key'
+openai.api_key = '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'
 def get_md5_value(src):
     _m = hashlib.md5()
     _m.update(src.encode('utf-8'))
